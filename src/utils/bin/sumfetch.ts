@@ -33,11 +33,11 @@ const sumfetch = async (args: string[]): Promise<string> => {
     .:+sydNMMMMMNNNmmmdddhhhhhhmMmy          CONTACT
        /mMMMMMMNNNmmmdddhhhhhmMNhs:          <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
     oNMMMMMMMNNNmmmddddhhdmMNhs+             <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
-  sNMMMMMMMMNNNmmmdddddmNMmhs/.              🦊 <u><a href="https://gitlab.com/${config.social.gitlab}" target="_blank">gitlab.com/${config.social.gitlab}</a></u>
+  sNMMMMMMMMNNNmmmdddddmNMmhs/.              <u><a href="https://gitlab.com/${config.social.gitlab}" target="_blank">gitlab.com/${config.social.gitlab}</a></u>
  /NMMMMMMMMNNNNmmmdddmNMNdso:               -----------
-+MMMMMMMNNNNNmmmmdmNMNdso/-                 Librex: https://librex.fuchskaute.xyz
-yMMNNNNNNNmmmmmNNMmhs+/-                    Invidious: TODO
-/hMMNNNNNNNNMNdhs++/-
++MMMMMMMNNNNNmmmmdmNMNdso/-                 󰒋 HOSTED SERVICES
+yMMNNNNNNNmmmmmNNMmhs+/-                     Librex: <u><a href="https://librex.fuchskaute.xyz" target="_blank">librex.fuchskaute.xyz</a></u>
+/hMMNNNNNNNNMNdhs++/-                       󰗃 Invidious: TODO
 /ohdmmddhys+++/:.
   -//////:--.
 `;
