@@ -14,13 +14,13 @@
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "colors": {
     "light": {
-      "background": "#282a36",
-      "foreground": "#f8f8f2",
-      "yellow": "#ffb86c",
-      "green": "#50fa7b",
-      "gray": "#bd93f9",
-      "blue": "#8be9fd",
-      "red": "#ff5555"
+      "background": "#030415",
+      "foreground": "#e0d2d1",
+      "yellow": "#49dcb3",
+      "green": "#db3796",
+      "gray": "#9c9392",
+      "blue": "#1c3f9e",
+      "red": "db3796"
     },
     "dark": {
       "background": "#282a36",
