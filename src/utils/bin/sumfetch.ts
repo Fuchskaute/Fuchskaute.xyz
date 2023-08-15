@@ -33,11 +33,11 @@ const sumfetch = async (args: string[]): Promise<string> => {
 ▐▓        > L I V E T E R M        ▐▓        CONTACT 
 ▐▓                                 ▐▓        <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
 ▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓        <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
-   ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓          🦊 <u><a href="https://gitlab.com/${config.social.gitlab}" target="_blank">gitlab.com/${config.social.gitlab}</a></u>
+   ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓         🦊 <u><a href="https://gitlab.com/${config.social.gitlab}" target="_blank">gitlab.com/${config.social.gitlab}</a></u>
     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓           -----------
-      ▓▓▓   ▐▓▓   ▓▓   ▓▓▓   ▓▓▀ 
-        ▀▓▓▄▄ ▀▓▓▄▓▓▄▓▓▓▄▄▓▓▀ 
-            ▀▓▓▓▓▓▓▓▓▓▓▓▀▀ 
+      ▓▓▓   ▐▓▓   ▓▓   ▓▓▓   ▓▓▀            HOSTED SERVICES:
+        ▀▓▓▄▄ ▀▓▓▄▓▓▄▓▓▓▄▄▓▓▀               Librex: https://librex.fuchskaute.xyz
+            ▀▓▓▓▓▓▓▓▓▓▓▓▀▀                  Invidious: TODO
 
 `;
   }

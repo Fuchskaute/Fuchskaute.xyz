@@ -4,8 +4,8 @@
   "name": "Fuchskaute",
   "ascii": "liveterm",
   "social": {
-    "github": "github",
-    "gitlab": "gitlab"
+    "github": "fuchskaute",
+    "gitlab": "fuchskaute"
   },
   "email": "fuchskaute@fuchskaute.xyz",
   "ps1_hostname": "Fuchskaute.xyz",
