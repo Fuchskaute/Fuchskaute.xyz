@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Hack';
-  src: url(/assets/fonts/Hack-NF.ttf);
+  font-family: 'Fira Code';
+  src: url(/assets/fonts/FiraCodeNerdFont-Regular.ttf);
   display: swap;
 }
 
 * {
-  font-family: 'Hack', monospace;
+  font-family: 'Fira Code', monospace;
 }
 
 html,
