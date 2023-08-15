@@ -31,10 +31,11 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
+
 Welcome to my website!
+
 More about me:
 'sumfetch' - short summary.
-'resume' - my latest resume.
 'readme' - my github readme.`;
 };
 
@@ -127,10 +128,10 @@ export const banner = (args?: string[]): string => {
  ░ ░    ░░░ ░ ░ ░         ░  ░░ ░░  ░  ░  ░ ░░ ░  ░   ▒    ░░░ ░ ░   ░         ░
           ░     ░ ░       ░  ░  ░      ░  ░  ░        ░  ░   ░                 ░  ░
                 ░
-NOTICE: It seems I accidentally removed the searx.koishi.de warning while playing with the website.
-        The service will remain __down__ until further notice. Please use librex.koishi.de instead.
+NOTICE: It seems I accidentally removed the searx warning while playing with the website.
+        The service will remain __down__ until further notice. Please use librex.fuchskaute.xyz instead.
 
-        The koishi.de domain will be retired soon. I am moving to fuchskaute.xyz, all services will remain intact.
+        The koishi.de domain has been retired. All HTTP queries will be redirected to fuchskaute.xyz.
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
