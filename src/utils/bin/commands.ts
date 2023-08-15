@@ -131,7 +131,7 @@ export const banner = (args?: string[]): string => {
 NOTICE: It seems I accidentally removed the searx warning while playing with the website.
         The service will remain __down__ until further notice. Please use librex.fuchskaute.xyz instead.
 
-        The koishi.de domain has been retired. All HTTP queries will be redirected to fuchskaute.xyz.
+        The koishi.de domain has been retired. All HTTP requests will be redirected to fuchskaute.xyz.
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
