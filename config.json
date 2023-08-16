@@ -20,8 +20,7 @@
       "green": "#db3796",
       "gray": "#9c9392",
       "blue": "#1c3f9e",
-      "red": "db3796",
-      "border-gradient": "linear-gradient(90deg, rgba(219,55,150,1) 25%, rgba(73,220,179,1) 100%)"
+      "red": "db3796"
     },
     "dark": {
       "background": "#282a36",
