@@ -36,6 +36,8 @@ Welcome to my website!
 
 More about me:
 'sumfetch' - short summary.
+'privacy' - privacy policy.
+'services' - overview of the hosted services.
 'readme' - my github readme.`;
 };
 
@@ -78,11 +80,28 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `gabriel_ultrakill
+striped_socks`;
+};
+
+export const services = async (args: string[]): Promise<string> => {
+return `
+All services I host and plan to host on this site are Free and Open Source Software.
+Librex: A privacy-respecting libre search engine developed by hnhx and endorsed by Richard Stallman.
+Searx: A privacy-respecting meta search engine.
+Invidious: A privacy-respecting YouTube frontend. Much lighter on resources and recommended for people on older hardware and/or slower connections. [NOT AVAILABLE YET]
+Fuchskaute.xyz: This page. My own fork of LiveTerm
+`;
+};
+
+export const privacy = async (args: string[]): Promise<string> => {
+  return `
+Connections and requests to the ports 80 and 443 are not logged, altho your IP will be stored in RAM while you are on the site and may be cached. (I have to say this)
+No cookies whatsoever, the exception is searx with its optional cookies for user preferences.
+Your requests on this site are not logged.
+Attempts to connect via ssh are logged for a prolonged period of time. Repeated attempts will result in a permanent ban.
+Your search requests are not logged.
+`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
