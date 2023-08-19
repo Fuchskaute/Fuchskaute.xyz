@@ -1,5 +1,6 @@
 // List of commands that do not require API calls
 
+import useSound from 'use-sound';
 import * as bin from './index';
 import config from '../../../config.json';
 
@@ -61,7 +62,7 @@ export const github = async (args: string[]): Promise<string> => {
 export const gitlab = async (args: string[]): Promise<string> => {
   window.open(`https://gitlab.com/${config.social.gitlab}/`);
 
-  return 'Opening gitlab...'
+  return 'Opening gitlab...';
 }
 
 // Search
@@ -80,9 +81,40 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `gabriel_ultrakill
-striped_socks`;
+  return `gabriel_ultrakill`;
 };
+
+export const cat = async(args: string[]): Promise<string> => {
+  if (args[0] == 'gabriel_ultrakill') {
+return `
+BEHOLD, THE POWER OF AN ANGEL
+fttffLLLLLfffLCGGGLtttt1ttttfG00GCft11tfLLffffff
+tttttffLLLLfLCGGGGLffft1ttttLG0000GLLLffffffffff
+ttttttffLLfC00GGCLfttt11ttttfLCG0880CfLffffftttt
+ttttttfLLLG880GCLft11111111ttfLLCG888GfLLftttttt
+1ttttLGLf0880GLtt11tffLCCLLffttffLG888GfLLttt111
+1tttfCCf0880Cf11tfCG00GGG00GCLtt1tLG888GfCL1111t
+tittLCfG000Ct11fCG000Git1t0GGGCf11tfG808LLGf111C
+1iiLGfL000Ct1ttLGGGGGL;11iGGGGGftfttL00GGfLL1ii1
+111LGfG00Gftt1;iGL1ii1i1111111Gt:i1tfG0GGLtC1iii
+iitCLtG00C1;:,:tGf:::;i11i;::iCCi,,:;C0GGCiCf;;;
+;;tCft0GLt1;,:1LCGLfLf;11iCCLCGGf;::ifLCCGifL:::
+;;1Lti1iii11i;tLLCGG0Cit11GGGGCLtii11ii;i1;tf:::
+;;;;;;;;;iiii;1LfLLCCLii;1CCCLft1;1ii;;::::;::;;
+::::::;;;;;;;;;tttttffftfLLfttt1;;i;;::::;::;;;;
+::::::::::;;;i;;ii11t1;iiit1iii;:i;::::::;;;;;;;
+1ii;::::::::;;i::;i1i;:11:;ii;;:;;::::;;;;;;;ii1
+0Cftt1:i1:::::;;::;;;;;11i;;ii::;;::::i;:;11tffC
+CGLLL;:tt::::::;;.,:;i;1i;iii,,;;:::;:1i::tGCLft
+ttft;::t1;;::::,....,;i111i:....::::::i1:::1t11t
+00f:::;tiiii;,,......,:i1;.......,:;1i;1:::,iCG0
+GG;:::i;:1ttt;..................,;1fft,i;::::CGG
+t;,:::i,;tttff;................:1LCCLL:;i:::,it1
+t::::;;:1ffffLL1,.............:tLCCLLLi,1:::,itt`
+       }
+
+  else return `cat: ${args}: No such file or directory`;
+}
 
 export const services = async (args: string[]): Promise<string> => {
 return `
@@ -105,8 +137,7 @@ Your search requests are not logged.
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `unfortunately, i cannot afford more directories.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
