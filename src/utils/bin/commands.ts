@@ -81,11 +81,12 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `gabriel_ultrakill`;
+  return `gabriel_ultrakill
+kqsey`;
 };
 
 export const cat = async(args: string[]): Promise<string> => {
-  if (args[0] == 'gabriel_ultrakill') {
+  if (args[0] == 'gabriel_ultrakill')
 return `
 BEHOLD, THE POWER OF AN ANGEL
 fttffLLLLLfffLCGGGLtttt1ttttfG00GCft11tfLLffffff
@@ -110,11 +111,59 @@ ttft;::t1;;::::,....,;i111i:....::::::i1:::1t11t
 00f:::;tiiii;,,......,:i1;.......,:;1i;1:::,iCG0
 GG;:::i;:1ttt;..................,;1fft,i;::::CGG
 t;,:::i,;tttff;................:1LCCLL:;i:::,it1
-t::::;;:1ffffLL1,.............:tLCCLLLi,1:::,itt`
-       }
+t::::;;:1ffffLL1,.............:tLCCLLLi,1:::,itt`;
 
-  else return `cat: ${args}: No such file or directory`;
-}
+else if (args[0] == 'kqsey') {
+  return `
+
+                    ;tCCCGt.          :GCCCCCGC.,GGCGf..    ..LGCGtCCCCCCCCCCCCG:
+                    i@LLf0f,       ..CGffffffffG0@GffL;:    ;;LLfG@LfLLfffffffL@i
+                    i8fffGf       :LGffCCGGGGCCfLGCCffGf:..:fGffCG8LffLCCCCCCCLf;
+                    i8fffGf1iiiiit@CtfL@1,,,,1LLftGLLftG@.:@GtfLL88LffG;8L88L@t
+                    f8fffG8CLLLLLC8CffLLLi   t8LffG8LffGf,:fCffLf88LffLLLLLLLLLti
+               .,tftG8LffG8LfffffL8CffL8GLfftG8LffG88GffLGGLff00088LffffffffffL8Ctf1.
+             .,1LLLL0fLffG@GCCCCCG8CtfL@GCGGCG0LftG880LLf0GfLL88fG8LffGL8L88f80fLLLLL1,.
+             ,LLLLLfG8LffCGGGGGGGG80CffGGGGGGLfffGGGGGLCffffGLGGfG8LffLGGGGGGGGGCLLLLLL,
+            itLLLLLfGffffffffffftLL0GGCffffffffGGGLffLLCffffG8LfLG8LffffffffftLLGfLLLLL1;
+           .fLLLLLLLG80000000000008CfCC00000000CCfLLLC80000008LLfG80000000000008GfLLLLLCf.
+          :ffLLLLLLLLLLLLLLLLLLLLLLLCLLCCLLLLLLLLLLLLLLLLLLLLLLCLCCLLLLLLLLLLLLLLLLLLLLLff;
+          :LLLLLLLLLLLLLLLLLLLLLLLfGf888GCLfLLLLLLLLLLLLLLLfLC88888LLLLLLLLLLLLLLLLLLLLLLCi
+          :LLLLLLLLLLLLLLLLLLLLLLLfG800888GCfLLLLLLLLLLLLfLG0880008LfLLLLLLLLLLLLLLLLLLLLLi
+          :LLLLLLLLLLLLLLLLLLLLLLC008GGG00880CLLLLLLLLLLLG08800GG080GLLLLLLLLLLLLLLLLLLLLLi
+          :LLLLLLLLLLLLLLLLLLLLLfCL8000GGG0880000000000008800GGG00080fLLLLLLLLLLLLLLLLLLLLi
+          :LLLLLLLLLLLLLLLLLLLLLLC80000088888888888888888888880000080CLLLLLLLLLLLLLLLLLLLLi
+          :LLLLLLLLLLLLLLLLLLLLL080080888888888@@@@@@@@@88888888880008GfLLLLLLLLLLLLLLLLLL;
+          :CLLLLLLLLLLLLLLLLLLCG000888888888@@@@@@@@@@@@@@8888888880000GLLLLLLLLLLLLLLLLLCi
+          .:fLLLLLLLLLLLLLLLLLG80088880GLf08@@@@@@@@@@@@@@@880GCtC888088CLLLLLLLLLLLLLLLf:.
+            fLLLLLLLLLLLLLLLC00088888@80Cftf08@@@@@@@@@@@8888@0GLftG08800GLLLLLLLLLLLLLLf
+           .1tLLLLLLLLLLLLLfC80080fG8880GCLfiC8@@@@@@@@88LL8880GCLf1t88080fLLLLLLLLLLLLti
+             :CLLLLLLLLLLLLCG0888GitfLLLftiiiC888888888881ifLLLLt1iit88800CCLLLLLLLLLLL,
+             .;tLLLLLLLLLLL080008GiiiLCGGCGCtG888888888881iitCGGCCGfL888008GfLLLLLLLL1;.
+               iLLLLLLLLLLL0000000Gf1LC0@@880888888888888GCitLG8@@880000000CLLLLLLLLL;
+               ..tfLLLLLLLLG000000800fttC8888888888888888880Lttf80080000000CLLLLLLf1..
+                  :CLLLLLLLLC00000000000008888888888888888888000000000000GLLLLLLLL,
+                  .itCLLLLLLLCG0000000000000888888888888888000000000000GGCLLLLLCti.
+                    ,;fLLLLLLLCGG000000000000000000000000000000000000GGCLLLLLLf:.
+                      tLLLLLLLLLCCG00000000000000000000000000000000GGCLLLLLLLL1
+                       :tfLLLLLLLLLLCGGGGGGGGGGGGGGGGGGGGGGGGGGGGCCLLLLLLLLft,
+                         :1LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLCL1:
+                           :iLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLfi:
+           .i1LLLLLLLf.  11iL000LLLLLG0000000CLLL00000000000000000000000LiLLLLt ;1LLLLLLLLi
+           .f0LCCCCCCCGGGCLCCCLLG0000LLLLLLLLG000LLLLLLLLf0LLL088GLLC8GLCCCCCCCtCLCCCCCCC@i
+           .t0tff0f8f880Lff008CffC888fftG880tG880fff0888880fff088CtfL8CffLfff88@GtfL888ff8;
+           .f0fffGGGGG8Gfff0fLCffL888LffCGGGC0880fffCGGGG80fff088CffL8CffLGGGGGfCffLGGGCG8t
+           .f0fffCGGGG80fff0fLCffL8f8LffCGffC0f80fffCGGGG80GLf0LLCfCGfCffLGGGCGLGfffGLtCGL;
+           .t0tfff:...f0fff088CtfC888fftG;0GtC880fff088f8ff@GfLLLLf8@8CtfLffffffCtfLL80ff8t
+           .f0LLL81   .;GCLCCCCLCGGf8CLL0@80LLC00LLLLLLLL08GGGLLLCGGGtCLLLCCCCC@GLLC8ftCLCGf1
+           .i1LLLC;      11LLLLL   11LLLLLtf00GLL00000G00fi   f11:    i1LLLLLLL1LLLL1i t1LLCi
+                                           .itLLLLLLLLLti
+                                             ,;fLLLLLf;.
+                                               .;LLL:.
+`
+  }
+
+else return `cat: ${args}: No such file or directory`;
+};
 
 export const services = async (args: string[]): Promise<string> => {
 return `
